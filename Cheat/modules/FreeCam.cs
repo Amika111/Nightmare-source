@@ -1,0 +1,372 @@
+﻿using System;
+using SDG.Unturned;
+using UnityEngine;
+
+namespace Cheat.modules
+{
+	// Token: 0x02000014 RID: 20
+	public class FreeCam : MonoBehaviour
+	{
+		// Token: 0x060000EC RID: 236 RVA: 0x0000CC84 File Offset: 0x0000AE84
+		private void Update()
+		{
+			if (FreeCam.\u200C\u202D\u206F\u206C\u200D\u202A\u206C\u206F\u206E\u200B\u202C\u200D\u206F\u206D\u206D\u202C\u202B\u206C\u200B\u202A\u206A\u200F\u206A\u202B\u202E\u206F\u206C\u206E\u202D\u202E\u206C\u200C\u202B\u200B\u202A\u200C\u206A\u202A\u206B\u200E\u202E())
+			{
+				for (;;)
+				{
+					IL_0A:
+					uint num = 2229449699U;
+					for (;;)
+					{
+						uint num2;
+						switch ((num2 = (num ^ 2472963598U)) % 34U)
+						{
+						case 0U:
+						{
+							Player player = FreeCam.\u202C\u206C\u200E\u202A\u200D\u206B\u206F\u200F\u202C\u206D\u202A\u202C\u200E\u202E\u202E\u206A\u206C\u200E\u202D\u206E\u206F\u202A\u206E\u206B\u206A\u200D\u206D\u206A\u202E\u206C\u202B\u202A\u200D\u206A\u200F\u202C\u206E\u206C\u206D\u200D\u202E();
+							num = (num2 * 1521655938U ^ 554641724U);
+							continue;
+						}
+						case 1U:
+							num = (((!FreeCam.\u206E\u202C\u200D\u200C\u202D\u206C\u202B\u202B\u200B\u200D\u200F\u206E\u206F\u202A\u200B\u206E\u202E\u200E\u200F\u200C\u200B\u206E\u202E\u200E\u202B\u200F\u206C\u206D\u200F\u206A\u206A\u200D\u202C\u206B\u200F\u202B\u200F\u202D\u206B\u206C\u202E()) ? 4276777569U : 2221918008U) ^ num2 * 279865613U);
+							continue;
+						case 2U:
+						{
+							Player player;
+							FreeCam.\u200E\u202E\u202C\u206B\u206A\u202B\u206B\u202E\u202D\u202B\u200C\u200C\u206E\u206D\u206A\u202D\u206E\u206C\u202E\u202C\u202B\u202D\u206E\u200D\u206C\u206B\u206F\u206D\u206E\u206F\u202E\u202E\u202C\u202A\u206A\u206C\u200C\u206C\u206D\u202D\u202E(FreeCam.\u202D\u202C\u206D\u200B\u202E\u206F\u200D\u200B\u202E\u202E\u202E\u202B\u206C\u200F\u202E\u206F\u202A\u206C\u200C\u202E\u206A\u206C\u202D\u202D\u200C\u202C\u206E\u206F\u200F\u206B\u206D\u200E\u206B\u202C\u202C\u200E\u206B\u206D\u206C\u206F\u202E(FreeCam.\u206C\u202A\u202E\u206C\u200D\u202D\u202E\u200C\u206B\u206D\u200E\u202B\u200E\u202D\u206B\u200D\u200E\u206B\u200D\u206A\u202C\u200C\u206D\u202D\u202D\u202A\u206F\u200F\u202B\u200C\u206F\u200D\u206B\u202D\u200E\u206E\u202E\u200F\u202E\u206E\u202E(player)), false);
+							FreeCam.\u206C\u202A\u202E\u206C\u200D\u202D\u202E\u200C\u206B\u206D\u200E\u202B\u200E\u202D\u206B\u200D\u200E\u206B\u200D\u206A\u202C\u200C\u206D\u202D\u202D\u202A\u206F\u200F\u202B\u200C\u206F\u200D\u206B\u202D\u200E\u206E\u202E\u200F\u202E\u206E\u202E(player).itemGravityMultiplier = 0f;
+							this.modified = true;
+							num = ((PlayerUI.window.showCursor ? 4135072109U : 2916592398U) ^ num2 * 3469300534U);
+							continue;
+						}
+						case 3U:
+						{
+							Vector3 vector;
+							vector -= Vector3.up;
+							num = (num2 * 90820523U ^ 291183782U);
+							continue;
+						}
+						case 4U:
+							num = ((PlayerLifeUI.chatting ? 3625904413U : 2692897714U) ^ num2 * 3092392293U);
+							continue;
+						case 5U:
+						{
+							Vector3 vector;
+							Transform transform;
+							vector -= FreeCam.\u200D\u206B\u200D\u206C\u200E\u206F\u206D\u206A\u206F\u206C\u202B\u206E\u206D\u206C\u202A\u200F\u202A\u202C\u200E\u206E\u206E\u202C\u206F\u200E\u202C\u202B\u200D\u202A\u206A\u202A\u206F\u202E\u200C\u200E\u202A\u200D\u206F\u200C\u202E\u202E(transform);
+							num = (num2 * 2420340200U ^ 642183362U);
+							continue;
+						}
+						case 6U:
+							this.DisableFreeCam();
+							num = (num2 * 560176027U ^ 3244329761U);
+							continue;
+						case 7U:
+							num = (FreeCam.\u200E\u200C\u206E\u206F\u200B\u202D\u200B\u200E\u202D\u200B\u200B\u202E\u202C\u202E\u206C\u206C\u206E\u202B\u200C\u206B\u200D\u202E\u202C\u206B\u202A\u202B\u200B\u200F\u206B\u206E\u200E\u200E\u206B\u200D\u200C\u200E\u202B\u200F\u200F\u206F\u202E(115) ? 3048521891U : 4106927722U);
+							continue;
+						case 8U:
+						{
+							float num3;
+							num3 *= this.BoostMultiplier;
+							num = (num2 * 1595874585U ^ 491670599U);
+							continue;
+						}
+						case 9U:
+							num = ((!FreeCam.\u200E\u200C\u206E\u206F\u200B\u202D\u200B\u200E\u202D\u200B\u200B\u202E\u202C\u202E\u206C\u206C\u206E\u202B\u200C\u206B\u200D\u202E\u202C\u206B\u202A\u202B\u200B\u200F\u206B\u206E\u200E\u200E\u206B\u200D\u200C\u200E\u202B\u200F\u200F\u206F\u202E(32)) ? 4225658119U : 3551775874U);
+							continue;
+						case 10U:
+							num = ((!FreeCam.\u200E\u200C\u206E\u206F\u200B\u202D\u200B\u200E\u202D\u200B\u200B\u202E\u202C\u202E\u206C\u206C\u206E\u202B\u200C\u206B\u200D\u202E\u202C\u206B\u202A\u202B\u200B\u200F\u206B\u206E\u200E\u200E\u206B\u200D\u200C\u200E\u202B\u200F\u200F\u206F\u202E(100)) ? 4096946573U : 2950919409U);
+							continue;
+						case 11U:
+							num = (FreeCam.\u200E\u200C\u206E\u206F\u200B\u202D\u200B\u200E\u202D\u200B\u200B\u202E\u202C\u202E\u206C\u206C\u206E\u202B\u200C\u206B\u200D\u202E\u202C\u206B\u202A\u202B\u200B\u200F\u206B\u206E\u200E\u200E\u206B\u200D\u200C\u200E\u202B\u200F\u200F\u206F\u202E(306) ? 2958644197U : 3152641119U);
+							continue;
+						case 12U:
+							this.DisableFreeCam();
+							num = (num2 * 3722301249U ^ 2852979315U);
+							continue;
+						case 13U:
+							num = ((!this.Enabled) ? 3709796429U : 2229769976U);
+							continue;
+						case 14U:
+							return;
+						case 15U:
+						{
+							Vector3 vector;
+							Transform transform;
+							vector += FreeCam.\u200D\u206B\u200D\u206C\u200E\u206F\u206D\u206A\u206F\u206C\u202B\u206E\u206D\u206C\u202A\u200F\u202A\u202C\u200E\u206E\u206E\u202C\u206F\u200E\u202C\u202B\u200D\u202A\u206A\u202A\u206F\u202E\u200C\u200E\u202A\u200D\u206F\u200C\u202E\u202E(transform);
+							num = (num2 * 1277807112U ^ 109018229U);
+							continue;
+						}
+						case 16U:
+							goto IL_0A;
+						case 17U:
+						{
+							Vector3 vector;
+							Transform transform;
+							vector -= FreeCam.\u202D\u200F\u202E\u202E\u200E\u200D\u202E\u202A\u200F\u206F\u206B\u206D\u200E\u200B\u200D\u202D\u206E\u200D\u200D\u202C\u206C\u206D\u206E\u200F\u200C\u206F\u206C\u200B\u206B\u200E\u202E\u206A\u200B\u200F\u200C\u202E\u206C\u206D\u206D\u206E\u202E(transform);
+							num = (num2 * 2897530335U ^ 1639976921U);
+							continue;
+						}
+						case 18U:
+						{
+							Vector3 vector;
+							vector += Vector3.up;
+							num = (num2 * 1094689632U ^ 416183687U);
+							continue;
+						}
+						case 19U:
+							num = (this.modified ? 3957778654U : 3711527075U);
+							continue;
+						case 20U:
+						{
+							Vector3 vector = Vector3.zero;
+							num = (num2 * 3700263274U ^ 4254338143U);
+							continue;
+						}
+						case 21U:
+							return;
+						case 22U:
+							num = (FreeCam.\u200E\u200C\u206E\u206F\u200B\u202D\u200B\u200E\u202D\u200B\u200B\u202E\u202C\u202E\u206C\u206C\u206E\u202B\u200C\u206B\u200D\u202E\u202C\u206B\u202A\u202B\u200B\u200F\u206B\u206E\u200E\u200E\u206B\u200D\u200C\u200E\u202B\u200F\u200F\u206F\u202E(97) ? 2212955955U : 3541151882U);
+							continue;
+						case 23U:
+						{
+							Player player;
+							Transform transform = FreeCam.\u200C\u206D\u202E\u202C\u202D\u200E\u206C\u206A\u200E\u200B\u206F\u202B\u200E\u202C\u200B\u200F\u206B\u202B\u206D\u206B\u200E\u200F\u206D\u202E\u206E\u206B\u202E\u206C\u206D\u206C\u206B\u200C\u202B\u202A\u200B\u206A\u202C\u206E\u206F\u206E\u202E(FreeCam.\u200F\u206A\u200B\u202D\u200F\u200F\u202D\u206D\u202A\u206C\u206F\u202E\u206D\u202A\u200C\u200C\u202D\u200C\u200B\u206E\u206A\u202C\u206A\u200E\u206C\u200E\u206B\u202A\u206D\u200E\u202E\u200D\u206F\u202C\u202C\u200E\u200E\u200D\u202E\u206F\u202E(player));
+							num = 2257625278U;
+							continue;
+						}
+						case 24U:
+							num = (Overrides.bBeingSpied ? 3814604344U : 2836887171U);
+							continue;
+						case 25U:
+							num = ((FreeCam.\u200E\u200C\u206E\u206F\u200B\u202D\u200B\u200E\u202D\u200B\u200B\u202E\u202C\u202E\u206C\u206C\u206E\u202B\u200C\u206B\u200D\u202E\u202C\u206B\u202A\u202B\u200B\u200F\u206B\u206E\u200E\u200E\u206B\u200D\u200C\u200E\u202B\u200F\u200F\u206F\u202E(119) ? 3206958269U : 3113330074U) ^ num2 * 939448929U);
+							continue;
+						case 26U:
+							num = ((FreeCam.\u202E\u206C\u202C\u202A\u200D\u206C\u206E\u202D\u206F\u200F\u206C\u200E\u200E\u202B\u206C\u202A\u202C\u200E\u206A\u202D\u202D\u206D\u200D\u200D\u206F\u202C\u206C\u200F\u206C\u202C\u206B\u200F\u200E\u206D\u202A\u200F\u200E\u202B\u202A\u206E\u202E(FreeCam.\u202C\u206C\u200E\u202A\u200D\u206B\u206F\u200F\u202C\u206D\u202A\u202C\u200E\u202E\u202E\u206A\u206C\u200E\u202D\u206E\u206F\u202A\u206E\u206B\u206A\u200D\u206D\u206A\u202E\u206C\u202B\u202A\u200D\u206A\u200F\u202C\u206E\u206C\u206D\u200D\u202E(), null) ? 744834857U : 1377583606U) ^ num2 * 515706564U);
+							continue;
+						case 27U:
+						{
+							Player player;
+							Transform transform2 = FreeCam.\u206F\u200E\u202B\u202B\u202C\u200C\u206D\u206F\u206D\u200D\u206C\u202E\u202B\u202B\u200F\u202E\u206D\u206C\u202C\u206E\u202C\u200B\u206A\u200E\u206D\u202E\u200E\u202C\u202B\u200D\u202A\u200C\u206E\u206E\u202E\u200C\u206A\u206F\u206B\u202D\u202E(player);
+							Vector3 vector;
+							float num3;
+							FreeCam.\u206B\u200C\u200D\u206B\u202E\u200C\u200B\u200F\u206E\u200F\u206C\u202B\u202B\u202D\u202C\u206F\u202C\u200D\u202A\u206E\u200B\u200E\u200C\u202A\u200E\u200D\u206D\u206D\u202E\u206E\u206E\u202C\u202C\u200D\u206D\u200E\u200D\u206C\u200C\u202E(transform2, FreeCam.\u202A\u202D\u206D\u202A\u206B\u202E\u202C\u202E\u202A\u202B\u206E\u200C\u206D\u206A\u202C\u206F\u202A\u206F\u202E\u206B\u206F\u200D\u206C\u206E\u202D\u202C\u202E\u200B\u206B\u200E\u206B\u206F\u202A\u206D\u202A\u200C\u200F\u202B\u202D\u200E\u202E(transform2) + vector.normalized * num3 * FreeCam.\u200F\u200D\u202A\u206D\u206B\u206B\u200C\u202D\u200E\u206F\u200F\u200B\u200F\u202A\u202C\u206B\u206A\u200F\u200B\u200B\u202A\u200E\u206A\u202C\u202E\u206E\u206E\u206A\u206F\u206C\u206C\u200B\u206F\u206C\u206D\u200F\u200C\u200E\u202E\u206E\u202E());
+							num = 2300866130U;
+							continue;
+						}
+						case 28U:
+						{
+							float num3 = this.Speed;
+							num = (FreeCam.\u200E\u200C\u206E\u206F\u200B\u202D\u200B\u200E\u202D\u200B\u200B\u202E\u202C\u202E\u206C\u206C\u206E\u202B\u200C\u206B\u200D\u202E\u202C\u206B\u202A\u202B\u200B\u200F\u206B\u206E\u200E\u200E\u206B\u200D\u200C\u200E\u202B\u200F\u200F\u206F\u202E(304) ? 3752150644U : 3659827629U);
+							continue;
+						}
+						case 30U:
+							num = (((!this.Enabled) ? 2667292143U : 4265289442U) ^ num2 * 16180354U);
+							continue;
+						case 31U:
+							return;
+						case 32U:
+						{
+							Vector3 vector;
+							Transform transform;
+							vector += FreeCam.\u202D\u200F\u202E\u202E\u200E\u200D\u202E\u202A\u200F\u206F\u206B\u206D\u200E\u200B\u200D\u202D\u206E\u200D\u200D\u202C\u206C\u206D\u206E\u200F\u200C\u206F\u206C\u200B\u206B\u200E\u202E\u206A\u200B\u200F\u200C\u202E\u206C\u206D\u206D\u206E\u202E(transform);
+							num = (num2 * 3332281946U ^ 2133833855U);
+							continue;
+						}
+						case 33U:
+							return;
+						}
+						goto Block_1;
+					}
+				}
+				Block_1:
+				return;
+			}
+		}
+
+		// Token: 0x060000ED RID: 237 RVA: 0x0000D124 File Offset: 0x0000B324
+		private void DisableFreeCam()
+		{
+			Player player = FreeCam.\u202C\u206C\u200E\u202A\u200D\u206B\u206F\u200F\u202C\u206D\u202A\u202C\u200E\u202E\u202E\u206A\u206C\u200E\u202D\u206E\u206F\u202A\u206E\u206B\u206A\u200D\u206D\u206A\u202E\u206C\u202B\u202A\u200D\u206A\u200F\u202C\u206E\u206C\u206D\u200D\u202E();
+			for (;;)
+			{
+				IL_06:
+				uint num = 516557518U;
+				for (;;)
+				{
+					uint num2;
+					switch ((num2 = (num ^ 478277397U)) % 10U)
+					{
+					case 0U:
+					{
+						ItemCloudAsset itemCloudAsset;
+						num = (((itemCloudAsset == null) ? 1226070581U : 1153523117U) ^ num2 * 2039765700U);
+						continue;
+					}
+					case 1U:
+						return;
+					case 2U:
+						FreeCam.\u206C\u202A\u202E\u206C\u200D\u202D\u202E\u200C\u206B\u206D\u200E\u202B\u200E\u202D\u206B\u200D\u200E\u206B\u200D\u206A\u202C\u200C\u206D\u202D\u202D\u202A\u206F\u200F\u202B\u200C\u206F\u200D\u206B\u202D\u200E\u206E\u202E\u200F\u202E\u206E\u202E(player).itemGravityMultiplier = 1f;
+						num = 1164379115U;
+						continue;
+					case 3U:
+					{
+						FreeCam.\u200E\u202E\u202C\u206B\u206A\u202B\u206B\u202E\u202D\u202B\u200C\u200C\u206E\u206D\u206A\u202D\u206E\u206C\u202E\u202C\u202B\u202D\u206E\u200D\u206C\u206B\u206F\u206D\u206E\u206F\u202E\u202E\u202C\u202A\u206A\u206C\u200C\u206C\u206D\u202D\u202E(FreeCam.\u202D\u202C\u206D\u200B\u202E\u206F\u200D\u200B\u202E\u202E\u202E\u202B\u206C\u200F\u202E\u206F\u202A\u206C\u200C\u202E\u206A\u206C\u202D\u202D\u200C\u202C\u206E\u206F\u200F\u206B\u206D\u200E\u206B\u202C\u202C\u200E\u206B\u206D\u206C\u206F\u202E(FreeCam.\u206C\u202A\u202E\u206C\u200D\u202D\u202E\u200C\u206B\u206D\u200E\u202B\u200E\u202D\u206B\u200D\u200E\u206B\u200D\u206A\u202C\u200C\u206D\u202D\u202D\u202A\u206F\u200F\u202B\u200C\u206F\u200D\u206B\u202D\u200E\u206E\u202E\u200F\u202E\u206E\u202E(player)), true);
+						ItemCloudAsset itemCloudAsset = FreeCam.\u206E\u200E\u202A\u206A\u202E\u206A\u202A\u202E\u206F\u200E\u202C\u206D\u202B\u200D\u202B\u206C\u206D\u202D\u202E\u200E\u202E\u206B\u202A\u202D\u206D\u206D\u206A\u200D\u202B\u202D\u202E\u206D\u206E\u200D\u206B\u206C\u202C\u200D\u202B\u200D\u202E(FreeCam.\u206F\u202B\u202A\u206C\u200C\u200E\u206D\u206C\u206A\u202A\u202D\u200C\u206E\u202D\u200D\u206A\u202E\u206E\u206D\u200C\u206A\u202E\u202C\u206D\u206D\u206D\u200B\u200F\u202E\u200E\u202D\u202A\u202D\u200C\u206D\u200C\u202D\u202E\u206D\u202E(player)) as ItemCloudAsset;
+						num = 1977552329U;
+						continue;
+					}
+					case 4U:
+						this.Enabled = false;
+						num = 392121020U;
+						continue;
+					case 5U:
+						num = (((!FreeCam.\u202E\u206C\u202C\u202A\u200D\u206C\u206E\u202D\u206F\u200F\u206C\u200E\u200E\u202B\u206C\u202A\u202C\u200E\u206A\u202D\u202D\u206D\u200D\u200D\u206F\u202C\u206C\u200F\u206C\u202C\u206B\u200F\u200E\u206D\u202A\u200F\u200E\u202B\u202A\u206E\u202E(player, null)) ? 340838540U : 1041428142U) ^ num2 * 1654135520U);
+						continue;
+					case 6U:
+					{
+						ItemCloudAsset itemCloudAsset;
+						FreeCam.\u206C\u202A\u202E\u206C\u200D\u202D\u202E\u200C\u206B\u206D\u200E\u202B\u200E\u202D\u206B\u200D\u200E\u206B\u200D\u206A\u202C\u200C\u206D\u202D\u202D\u202A\u206F\u200F\u202B\u200C\u206F\u200D\u206B\u202D\u200E\u206E\u202E\u200F\u202E\u206E\u202E(player).itemGravityMultiplier = FreeCam.\u200C\u206D\u206C\u202E\u206C\u206E\u206B\u206A\u206F\u200D\u200D\u206B\u200B\u202A\u206D\u206D\u206D\u202D\u202D\u202B\u202A\u206F\u200D\u202C\u202C\u200B\u202C\u200B\u200C\u202B\u200C\u202A\u206A\u206E\u202D\u206E\u202C\u202A\u206E\u206F\u202E(itemCloudAsset);
+						num = (num2 * 2121588211U ^ 29618227U);
+						continue;
+					}
+					case 7U:
+						this.modified = false;
+						num = (num2 * 3889761765U ^ 3657419003U);
+						continue;
+					case 8U:
+						goto IL_06;
+					}
+					goto Block_1;
+				}
+			}
+			Block_1:;
+		}
+
+		// Token: 0x060000EF RID: 239 RVA: 0x000076B8 File Offset: 0x000058B8
+		static bool \u200C\u202D\u206F\u206C\u200D\u202A\u206C\u206F\u206E\u200B\u202C\u200D\u206F\u206D\u206D\u202C\u202B\u206C\u200B\u202A\u206A\u200F\u206A\u202B\u202E\u206F\u206C\u206E\u202D\u202E\u206C\u200C\u202B\u200B\u202A\u200C\u206A\u202A\u206B\u200E\u202E()
+		{
+			return Provider.isConnected;
+		}
+
+		// Token: 0x060000F0 RID: 240 RVA: 0x000076CC File Offset: 0x000058CC
+		static bool \u206E\u202C\u200D\u200C\u202D\u206C\u202B\u202B\u200B\u200D\u200F\u206E\u206F\u202A\u200B\u206E\u202E\u200E\u200F\u200C\u200B\u206E\u202E\u200E\u202B\u200F\u206C\u206D\u200F\u206A\u206A\u200D\u202C\u206B\u200F\u202B\u200F\u202D\u206B\u206C\u202E()
+		{
+			return Provider.isLoading;
+		}
+
+		// Token: 0x060000F1 RID: 241 RVA: 0x00007690 File Offset: 0x00005890
+		static Player \u202C\u206C\u200E\u202A\u200D\u206B\u206F\u200F\u202C\u206D\u202A\u202C\u200E\u202E\u202E\u206A\u206C\u200E\u202D\u206E\u206F\u202A\u206E\u206B\u206A\u200D\u206D\u206A\u202E\u206C\u202B\u202A\u200D\u206A\u200F\u202C\u206E\u206C\u206D\u200D\u202E()
+		{
+			return Player.LocalPlayer;
+		}
+
+		// Token: 0x060000F2 RID: 242 RVA: 0x000076A4 File Offset: 0x000058A4
+		static bool \u202E\u206C\u202C\u202A\u200D\u206C\u206E\u202D\u206F\u200F\u206C\u200E\u200E\u202B\u206C\u202A\u202C\u200E\u206A\u202D\u202D\u206D\u200D\u200D\u206F\u202C\u206C\u200F\u206C\u202C\u206B\u200F\u200E\u206D\u202A\u200F\u200E\u202B\u202A\u206E\u202E(Object A_0, Object A_1)
+		{
+			return A_0 == A_1;
+		}
+
+		// Token: 0x060000F3 RID: 243 RVA: 0x0000D28C File Offset: 0x0000B48C
+		static PlayerMovement \u206C\u202A\u202E\u206C\u200D\u202D\u202E\u200C\u206B\u206D\u200E\u202B\u200E\u202D\u206B\u200D\u200E\u206B\u200D\u206A\u202C\u200C\u206D\u202D\u202D\u202A\u206F\u200F\u202B\u200C\u206F\u200D\u206B\u202D\u200E\u206E\u202E\u200F\u202E\u206E\u202E(Player A_0)
+		{
+			return A_0.movement;
+		}
+
+		// Token: 0x060000F4 RID: 244 RVA: 0x0000D2A0 File Offset: 0x0000B4A0
+		static CharacterController \u202D\u202C\u206D\u200B\u202E\u206F\u200D\u200B\u202E\u202E\u202E\u202B\u206C\u200F\u202E\u206F\u202A\u206C\u200C\u202E\u206A\u206C\u202D\u202D\u200C\u202C\u206E\u206F\u200F\u206B\u206D\u200E\u206B\u202C\u202C\u200E\u206B\u206D\u206C\u206F\u202E(PlayerMovement A_0)
+		{
+			return A_0.controller;
+		}
+
+		// Token: 0x060000F5 RID: 245 RVA: 0x0000D2B4 File Offset: 0x0000B4B4
+		static void \u200E\u202E\u202C\u206B\u206A\u202B\u206B\u202E\u202D\u202B\u200C\u200C\u206E\u206D\u206A\u202D\u206E\u206C\u202E\u202C\u202B\u202D\u206E\u200D\u206C\u206B\u206F\u206D\u206E\u206F\u202E\u202E\u202C\u202A\u206A\u206C\u200C\u206C\u206D\u202D\u202E(Collider A_0, bool A_1)
+		{
+			A_0.enabled = A_1;
+		}
+
+		// Token: 0x060000F6 RID: 246 RVA: 0x000076E0 File Offset: 0x000058E0
+		static bool \u200E\u200C\u206E\u206F\u200B\u202D\u200B\u200E\u202D\u200B\u200B\u202E\u202C\u202E\u206C\u206C\u206E\u202B\u200C\u206B\u200D\u202E\u202C\u206B\u202A\u202B\u200B\u200F\u206B\u206E\u200E\u200E\u206B\u200D\u200C\u200E\u202B\u200F\u200F\u206F\u202E(KeyCode A_0)
+		{
+			return Input.GetKey(A_0);
+		}
+
+		// Token: 0x060000F7 RID: 247 RVA: 0x000077E8 File Offset: 0x000059E8
+		static PlayerLook \u200F\u206A\u200B\u202D\u200F\u200F\u202D\u206D\u202A\u206C\u206F\u202E\u206D\u202A\u200C\u200C\u202D\u200C\u200B\u206E\u206A\u202C\u206A\u200E\u206C\u200E\u206B\u202A\u206D\u200E\u202E\u200D\u206F\u202C\u202C\u200E\u200E\u200D\u202E\u206F\u202E(Player A_0)
+		{
+			return A_0.look;
+		}
+
+		// Token: 0x060000F8 RID: 248 RVA: 0x000077FC File Offset: 0x000059FC
+		static Transform \u200C\u206D\u202E\u202C\u202D\u200E\u206C\u206A\u200E\u200B\u206F\u202B\u200E\u202C\u200B\u200F\u206B\u202B\u206D\u206B\u200E\u200F\u206D\u202E\u206E\u206B\u202E\u206C\u206D\u206C\u206B\u200C\u202B\u202A\u200B\u206A\u202C\u206E\u206F\u206E\u202E(PlayerLook A_0)
+		{
+			return A_0.aim;
+		}
+
+		// Token: 0x060000F9 RID: 249 RVA: 0x00007810 File Offset: 0x00005A10
+		static Vector3 \u202D\u200F\u202E\u202E\u200E\u200D\u202E\u202A\u200F\u206F\u206B\u206D\u200E\u200B\u200D\u202D\u206E\u200D\u200D\u202C\u206C\u206D\u206E\u200F\u200C\u206F\u206C\u200B\u206B\u200E\u202E\u206A\u200B\u200F\u200C\u202E\u206C\u206D\u206D\u206E\u202E(Transform A_0)
+		{
+			return A_0.forward;
+		}
+
+		// Token: 0x060000FA RID: 250 RVA: 0x0000D2C8 File Offset: 0x0000B4C8
+		static Vector3 \u200D\u206B\u200D\u206C\u200E\u206F\u206D\u206A\u206F\u206C\u202B\u206E\u206D\u206C\u202A\u200F\u202A\u202C\u200E\u206E\u206E\u202C\u206F\u200E\u202C\u202B\u200D\u202A\u206A\u202A\u206F\u202E\u200C\u200E\u202A\u200D\u206F\u200C\u202E\u202E(Transform A_0)
+		{
+			return A_0.right;
+		}
+
+		// Token: 0x060000FB RID: 251 RVA: 0x00007708 File Offset: 0x00005908
+		static Transform \u206F\u200E\u202B\u202B\u202C\u200C\u206D\u206F\u206D\u200D\u206C\u202E\u202B\u202B\u200F\u202E\u206D\u206C\u202C\u206E\u202C\u200B\u206A\u200E\u206D\u202E\u200E\u202C\u202B\u200D\u202A\u200C\u206E\u206E\u202E\u200C\u206A\u206F\u206B\u202D\u202E(Component A_0)
+		{
+			return A_0.transform;
+		}
+
+		// Token: 0x060000FC RID: 252 RVA: 0x0000771C File Offset: 0x0000591C
+		static Vector3 \u202A\u202D\u206D\u202A\u206B\u202E\u202C\u202E\u202A\u202B\u206E\u200C\u206D\u206A\u202C\u206F\u202A\u206F\u202E\u206B\u206F\u200D\u206C\u206E\u202D\u202C\u202E\u200B\u206B\u200E\u206B\u206F\u202A\u206D\u202A\u200C\u200F\u202B\u202D\u200E\u202E(Transform A_0)
+		{
+			return A_0.position;
+		}
+
+		// Token: 0x060000FD RID: 253 RVA: 0x000078A0 File Offset: 0x00005AA0
+		static float \u200F\u200D\u202A\u206D\u206B\u206B\u200C\u202D\u200E\u206F\u200F\u200B\u200F\u202A\u202C\u206B\u206A\u200F\u200B\u200B\u202A\u200E\u206A\u202C\u202E\u206E\u206E\u206A\u206F\u206C\u206C\u200B\u206F\u206C\u206D\u200F\u200C\u200E\u202E\u206E\u202E()
+		{
+			return Time.deltaTime;
+		}
+
+		// Token: 0x060000FE RID: 254 RVA: 0x0000D2DC File Offset: 0x0000B4DC
+		static void \u206B\u200C\u200D\u206B\u202E\u200C\u200B\u200F\u206E\u200F\u206C\u202B\u202B\u202D\u202C\u206F\u202C\u200D\u202A\u206E\u200B\u200E\u200C\u202A\u200E\u200D\u206D\u206D\u202E\u206E\u206E\u202C\u202C\u200D\u206D\u200E\u200D\u206C\u200C\u202E(Transform A_0, Vector3 A_1)
+		{
+			A_0.position = A_1;
+		}
+
+		// Token: 0x060000FF RID: 255 RVA: 0x000078CC File Offset: 0x00005ACC
+		static PlayerEquipment \u206F\u202B\u202A\u206C\u200C\u200E\u206D\u206C\u206A\u202A\u202D\u200C\u206E\u202D\u200D\u206A\u202E\u206E\u206D\u200C\u206A\u202E\u202C\u206D\u206D\u206D\u200B\u200F\u202E\u200E\u202D\u202A\u202D\u200C\u206D\u200C\u202D\u202E\u206D\u202E(Player A_0)
+		{
+			return A_0.equipment;
+		}
+
+		// Token: 0x06000100 RID: 256 RVA: 0x000078E0 File Offset: 0x00005AE0
+		static ItemAsset \u206E\u200E\u202A\u206A\u202E\u206A\u202A\u202E\u206F\u200E\u202C\u206D\u202B\u200D\u202B\u206C\u206D\u202D\u202E\u200E\u202E\u206B\u202A\u202D\u206D\u206D\u206A\u200D\u202B\u202D\u202E\u206D\u206E\u200D\u206B\u206C\u202C\u200D\u202B\u200D\u202E(PlayerEquipment A_0)
+		{
+			return A_0.asset;
+		}
+
+		// Token: 0x06000101 RID: 257 RVA: 0x0000D2F0 File Offset: 0x0000B4F0
+		static float \u200C\u206D\u206C\u202E\u206C\u206E\u206B\u206A\u206F\u200D\u200D\u206B\u200B\u202A\u206D\u206D\u206D\u202D\u202D\u202B\u202A\u206F\u200D\u202C\u202C\u200B\u202C\u200B\u200C\u202B\u200C\u202A\u206A\u206E\u202D\u206E\u202C\u202A\u206E\u206F\u202E(ItemCloudAsset A_0)
+		{
+			return A_0.gravity;
+		}
+
+		// Token: 0x04000071 RID: 113
+		public bool Enabled;
+
+		// Token: 0x04000072 RID: 114
+		public float Speed = 15f;
+
+		// Token: 0x04000073 RID: 115
+		public float BoostMultiplier = 4f;
+
+		// Token: 0x04000074 RID: 116
+		private bool modified;
+	}
+}

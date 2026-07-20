@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FD99F73-E874-432F-94F6-B9B711A0DFCD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Cheat</RootNamespace>
+    <AssemblyName>Cheat</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="HighlightingSystem">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\HighlightingSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SDG.Glazier.Runtime">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\SDG.Glazier.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="SDG.NetPak.Runtime">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\SDG.NetPak.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="SDG.NetTransport">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\SDG.NetTransport.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\DLL method\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="kernel32">
+      <HintPath>C:\Users\coddy\OneDrive\Desktop\kernel32.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="ConfusedByAttribute.cs" />
+    <Compile Include="core\Config.cs" />
+    <Compile Include="core\Entities.cs" />
+    <Compile Include="core\Log.cs" />
+    <Compile Include="core\Main.cs" />
+    <Compile Include="core\Menu.cs" />
+    <Compile Include="core\Utils.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="modules\Aimbot.cs" />
+    <Compile Include="modules\ChatSpam.cs" />
+    <Compile Include="modules\DisableBattlEyePanel.cs" />
+    <Compile Include="modules\ESP.cs" />
+    <Compile Include="modules\FreeCam.cs" />
+    <Compile Include="modules\hkPlayer.cs" />
+    <Compile Include="modules\ItemVacuum.cs" />
+    <Compile Include="modules\Overrides.cs" />
+    <Compile Include="modules\Triggerbot.cs" />
+    <Compile Include="modules\VehicleNoclip.cs" />
+    <Compile Include="modules\Visuals.cs" />
+    <Compile Include="modules\WeaponMods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\com.rlabrecque.steamworks.net.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\HighlightingSystem.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\Newtonsoft.Json.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\SDG.Glazier.Runtime.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\SDG.NetPak.Runtime.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\SDG.NetTransport.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.AudioModule.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.CoreModule.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.ImageConversionModule.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.IMGUIModule.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.InputLegacyModule.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.PhysicsModule.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.ScreenCaptureModule.dll" />
+    <Analyzer Include="..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.TextRenderingModule.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

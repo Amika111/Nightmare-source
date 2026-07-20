@@ -1,0 +1,2 @@
+C:\Users\coddy\OneDrive\Desktop\BURMALDA\Cheat\obj\Debug\Cheat.csproj.AssemblyReference.cache
+C:\Users\coddy\OneDrive\Desktop\BURMALDA\Cheat\obj\Debug\Cheat.csproj.CoreCompileInputs.cache
